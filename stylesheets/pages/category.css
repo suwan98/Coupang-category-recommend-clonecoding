@@ -1,0 +1,589 @@
+/* 카테고리별 추천 광고상품 */
+
+.item-price{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-black);
+}
+.item-price-2{
+    font-size: 14px;
+    color: var(--color-black);
+
+}
+.rocket-badge{
+    padding: 5px;
+    margin: 3px
+}
+.discount-title{
+    color: var(--color-red-500);
+    font-size: 14px;
+    margin: 0;
+}
+
+/* 생활용품카테고리영역시작 */
+
+/*전체 생활용품 카테고리 영역 시작*/
+
+
+.house-hold-area{
+    display: flex;
+    border-top: 1px solid var(--color-brown-300);
+    border-bottom: 1px solid var(--color-brown-300);
+
+}
+/*전체 생활용품 카테고리 영역 종료*/
+
+
+
+/* 카테고리별 추천 광고상품 텍스트 */
+.trend-title{
+    margin: 3px;
+    font-size: 16px;
+}
+.item-title{
+    margin: 3px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.item-title-blue{
+    color: var(--color-blue-600);
+    font-size: 24px;
+}
+
+/* 생활용품 바로가기 영역 */
+.house-hold-shortcut-group{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+}
+.house-hold-product{
+    display: flex; 
+    position: relative;
+    color: var(--color-brown-300);
+    font-size: 24px;
+}
+.shortcut{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    color: var(--color-gray-700);
+    font-size: 14px;
+    font-weight: bold;
+}
+.keyword-items{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 3%;
+}
+.right{
+    margin: 8px;
+}
+.house-hold-keyword{
+    position: absolute;
+    bottom: 30%;
+    font-size: 18px;
+    color: var(--color-black);
+}
+.keyword-list .keyword-items .shortcut-body-oil{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}
+
+.keyword-list .keyword-items .shortcut-detergent{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}.keyword-list .keyword-items .shortcut-air-freshener{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}.keyword-list .keyword-items .shortcut-tissue{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}.keyword-list .keyword-items .shortcut-shampoo{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}.keyword-list .keyword-items .shortcut-kitchen-towel{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-brown-300);
+}
+
+/*다우니 아이템 광고 영역*/
+.downy-recommend-gruop{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex: 1;
+}
+
+.downy-recommend-banner{
+    position: absolute;
+    top: 75%;
+    width: 260px;
+    height: 90px;
+    background-color: var(--color-brown-300);
+    color: var(--color-white);
+    text-align: center;
+}
+.downy-recommend-first{
+    font-size: 18px;
+    font-weight: 600;
+}
+.downy-recommend-second{
+    font-size: 14px;
+    font-weight: 200;
+}
+.downy-indicatior-circle-group{
+    position: absolute;
+    display: flex;
+    top: 91%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-gray-700);
+    border-radius: 50%;
+}
+
+
+/*추천 상품 광고 영역*/
+.house-hold-item-list{
+    display: flex;
+    position: relative;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.house-hold-item-list::before{
+    content: "";
+    position: absolute;
+    border: 1px solid var(--color-gray-600);
+    display: flex;
+    width: 100%;
+}
+.toothbrush-basket-item-group{
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0px 5px 5px rgba(105,105,105, 0.3);
+    padding: 10px;
+}
+.toothbrush-basket-image{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.basket-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+
+.hair-oil-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0px 5px 5px rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.hair-oil-image{
+    display: flex;
+}
+.hair-oil-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.claning-cloth-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.claning-cloth-image{
+    align-items: center;
+
+}
+.claning-cloth-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.massage-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.massge-stick-image{
+    align-items: center;
+
+}
+.massge-stick-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.drying-rack-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.drying-rack-image{
+    align-items: center;
+
+}
+.drying-rack-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.mask-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.mask-image{
+    align-items: center;
+
+}
+.mask-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+/* 생활용품카테고리영역종료 */
+
+
+
+
+
+/* 주방용품카테고리영역시작 */
+
+/*전체 주방용품 카테고리 영역 시작*/
+
+.kitchen-hold-area{
+    display: flex;
+    border-top: 1px solid var(--color-green-700);
+    border-bottom: 1px solid var(--color-green-700);
+
+}
+/*전체 주팡용품 카테고리 영역 종료*/
+
+/* 카테고리별 추천 광고상품 텍스트 */
+
+
+/* 주방용품 바로가기 영역 */
+.kitchen-hold-shortcut-group{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex: 1;
+}
+.kitchen-hold-product{
+    display: flex; 
+    position: relative;
+    color: var(--color-green-700);
+    font-size: 24px;
+}
+.shortcut{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    color: var(--color-gray-700);
+    font-size: 14px;
+    font-weight: bold;
+}
+.keyword-items{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 3%;
+}
+.right{
+    margin: 8px;
+}
+.kitchen-hold-keyword{
+    position: absolute;
+    bottom: 30%;
+    font-size: 18px;
+    color: var(--color-black);
+}
+.keyword-list .keyword-items .shortcut-nitrile{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}
+
+.keyword-list .keyword-items .shortcut-dispenser{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}.keyword-list .keyword-items .shortcut-waffle-pen{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}.keyword-list .keyword-items .shortcut-thumblr{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}.keyword-list .keyword-items .shortcut-spice-jar{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}.keyword-list .keyword-items .shortcut-scrubbers{
+    border: 1px solid var(--color-gray-400);
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-green-700);
+}
+
+/*텀블러 아이템 광고 영역*/
+.thumblr-recommend-gruop{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex: 1;
+}
+
+.thumblr-recommend-banner{
+    position: absolute;
+    top: 75%;
+    width: 260px;
+    height: 90px;
+    background-color: var(--color-green-700);
+    color: var(--color-white);
+    text-align: center;
+}
+.thumblr-recommend-first{
+    font-size: 18px;
+    font-weight: 600;
+}
+.thumblr-recommend-second{
+    font-size: 14px;
+    font-weight: 200;
+}
+.thumblr-indicatior-circle-group{
+    position: absolute;
+    display: flex;
+    top: 91%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-gray-700);
+    border-radius: 50%;
+}
+
+
+/*추천 상품 광고 영역*/
+.kitchen-hold-item-list{
+    display: flex;
+    position: relative;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.kitchen-hold-item-list::before{
+    content: "";
+    position: absolute;
+    border: 1px solid var(--color-gray-600);
+    display: flex;
+    width: 100%;
+}
+
+.kitchen-towel-item-group{
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0px 5px 5px rgba(105,105,105, 0.3);
+    padding: 10px;
+}
+.kitchen-towel-img{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.kitchen-towel-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+
+.airfryer-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0px 5px 5px rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.airfryer-image{
+    display: flex;
+}
+.airfryer-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.paper-foil-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.paper-foil-image{
+    align-items: center;
+
+}
+.paper-foil-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.zipper-bag-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.zipper-bag-image{
+    align-items: center;
+
+}
+.zipper-bag-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.paper-spoon-item-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.paper-spoon-image{
+    align-items: center;
+
+}
+.paper-spoon-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+.illy-coffee-group{
+    border-left: 1px solid var(--color-gray-700);
+    border-right: 1px solid var(--color-gray-700);
+    border-bottom: 1px solid var(--color-gray-700);
+    box-shadow: 0 5px 5px  rgba(105,105,105, 0.3);
+    padding: 10px;
+    width: 26%;
+    height: 40%;
+    flex: 1;
+    padding: 10px;
+
+}
+.illy-coffee-image{
+    align-items: center;
+
+}
+.illy-coffee-title{
+    margin: 0;
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+/* 주방용품카테고리영역종료 */
